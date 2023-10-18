@@ -1,0 +1,11 @@
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+header .logo {
+    flex: 1 1 auto;
+    background: url("../img/avataaars.png") no-repeat;
+}
