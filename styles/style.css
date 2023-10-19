@@ -1,11 +1,64 @@
-header {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: flex-start;
-    align-items: stretch;
+* {
+    box-sizing: border-box;
 }
-
 header .logo {
     flex: 1 1 auto;
-    background: url("../img/avataaars.png") no-repeat;
+    background: url('../img/avataaars.png') no-repeat;
+}
+
+header {
+    background-color: #1d90ff;
+    box-shadow: 0 0 20px 1px #1d90ff;
+}
+
+.row {
+    align-items: center;
+    justify-content: space-between;
+    text-align: right;
+}
+
+.size {
+    font-size: 5rem;
+    color: white;
+    margin-block-start: auto;
+    margin-block-end: auto;
+}
+.avatars{
+    top: 40px;
+    display: flex;
+}
+img {
+    background-color: #d1d1d1;
+    box-shadow: 0 0 20px 1px #1d90ff;
+}
+
+ul {
+    list-style: square;
+    color: black;
+}
+b {
+    color: black;
+    font-size: larger;
+}
+.colortext{
+    color: #140f87de;
+}
+.colorspan{
+    color: #daa520;
+}
+.Shadow{
+    margin-top: 20px;
+    background: #3333;
+    color: white;
+}
+h1{
+    color: #1d90ff;
+}
+.size1 {
+
+    color: white;
+}
+
+a{
+    color:blue;
 }
